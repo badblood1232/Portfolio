@@ -15,6 +15,9 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 
     DigitalDesc:"A Digital Clock app made using React.js",
     DigitalGithub: "https://github.com/badblood1232/Digital-Clock",
+
+    CompanyDesc:"Full stack company website made using html, css and Django",
+    CompanyGithub: "https://github.com/badblood1232/Companyprototype",
    
     
   }

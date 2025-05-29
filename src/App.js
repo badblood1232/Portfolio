@@ -37,6 +37,7 @@ function App() {
       <div>
   
       <Lottie className="bgtemp" animationData={background} loop={true} /> 
+     
 
       <Nav/>
       <MoveToTop/>
