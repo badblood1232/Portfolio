@@ -4,13 +4,11 @@ import Nav from './Components/Navbar';
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Resume from "./Components/Resume";
 import Project from "./Components/Projects";
 import MoveToTop from "./Components/MoveToTop";
 import Lottie from  "lottie-react";
-import nightsky from "./LottieFiles/night-sky.json";
-import HashLoader from "react-spinners/HashLoader";
-
+import background from "./LottieFiles/background2.json";
+import SyncLoader from "react-spinners/SyncLoader";
 
 function App() {
   const[Loading,SetLoading]=useState(true);
@@ -27,7 +25,7 @@ function App() {
     <>
       {Loading ? (
       <div className="loader"> 
-        <HashLoader
+        <SyncLoader
           color={'#9067C6'}
           loading={true}
           size={100}
@@ -37,10 +35,8 @@ function App() {
       </div>
       ):(
       <div>
-      
-      <Lottie className="bg" animationData={nightsky} loop={true} />  
-      <Lottie className="bgtwo" animationData={nightsky} loop={true} />   
-      <Lottie className="bgtemp" animationData={nightsky} loop={true} /> 
+  
+      <Lottie className="bgtemp" animationData={background} loop={true} /> 
 
       <Nav/>
       <MoveToTop/>
@@ -49,10 +45,9 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/About" element={<About/>}/>
         <Route path="/Project" element={<Project/>}/>
-        <Route path="/Resume" element={<Resume/>}/>
       </Routes>
       
-      <Footer/>
+     
       </div>
       )}  
     </>

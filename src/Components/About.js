@@ -2,7 +2,8 @@ import React from 'react';
 import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react"
-import Coder from '../LottieFiles/coder.json';
+
+import profile from '../images/profile1.jpg';
 
 const About = () => {
   return (
@@ -11,43 +12,32 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Devansh Sahni</b> and I am from New Delhi, India.
-            I'm a <b>MERN stack web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
-            I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
-            I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
-            I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
-            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/devansh_sahni_/?hl=en" target='_blank'>Instagram.</a>
+            I’m a Bachelor of Science in Information Technology graduate from Cebu Institute of Technology University with a strong passion for technology and problem-solving. 
+             I enjoy coding in various programming languages and continuously seek opportunities to expand my knowledge. 
+             I love experimenting with new tools and technologies to improve my skills and stay updated in the ever-evolving 
+             tech landscape. Below are some of the key languages, tools, platforms, and technologies I’ve worked with:
           </p>
         </div>
 
-        <div>
-          <Tilt>
-              <Lottie 
-              className="illustration" 
-              animationData={Coder} 
-              loop={true} 
-            />
-          </Tilt>
+        <div className='profile-container'>
+          <img className='profile' src={profile}/>
+    
         </div>
 
       </div>
       
-      <h1 className='SkillsHeading'>Professional Skillset</h1>
+      <h1 className='SkillsHeading'>Skills</h1>
       <div className='skills'>
         
         <Skills skill='React' />
         <Skills skill='Node' />
         <Skills skill='Express' />
-        <Skills skill='MongoDb' />
         <Skills skill='Git' />
-        <Skills skill='Github' />
         <Skills skill='Javascript' />
         <Skills skill='C++' />
         <Skills skill='Postman' />
-        <Skills skill='Figma' />
-        <Skills skill='Vercel' />
-        <Skills skill='Npm' />
-        <Skills skill='Bootstrap'/>
+        <Skills skill='Django' />
+        <Skills skill='Python' />
         
       </div>
     </>

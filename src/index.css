@@ -20,7 +20,7 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  background-color: #031926;
+  background-color: #000000;
   color: #E7E7E7;
   min-height: 100vh;
 }
@@ -50,6 +50,7 @@ b{
   z-index: -1;
   bottom: 0px;  
 }
+
 
 .bgtwo{
   position:fixed;
@@ -218,7 +219,8 @@ b{
   font-weight: 600;
   font-size: 38px;
   letter-spacing: 0.7px;
-  padding-top: 10px;
+  padding-top: 10px;  
+  text-align: center;
 }
 
 .TypeEffect{
@@ -226,6 +228,7 @@ b{
   font-weight: 600;
   font-size: 32px;
   letter-spacing: 0.6px;
+  text-align: center;
 }
 
 .illustration{
@@ -240,10 +243,7 @@ b{
     margin-top: 150px;
     padding: 25px;
   }
-  .HomeText{
-    text-align: left;
-    display: inline-block;
-  }
+
   .illustration{
     margin: auto;
     margin-bottom: 50px;
@@ -275,13 +275,25 @@ b{
 
 /* ABOUT */
 
+.profile-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile{
+  border-radius: 40px;
+  height: 50vh;
+
+}
+
 .AboutPage{
   display: flex;
   justify-content: space-evenly;
   min-height: 80vh;
   margin-top: 100px;
   align-items: center;
-  padding: 25px;
+  padding: 40px;
 }
 
 .AboutText{
@@ -303,7 +315,9 @@ b{
 }
 
 .Avatar{
-  width: 280px;
+  width: 400px;
+  border-radius: 10px;
+
 }
 
 @media(max-width:900px){
