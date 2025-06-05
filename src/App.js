@@ -24,11 +24,12 @@ function App() {
   return (
     <>
       {Loading ? (
+        
       <div className="loader"> 
         <SyncLoader
           color={'#9067C6'}
           loading={true}
-          size={100}
+          size={50}
           aria-label="Loading Spinner"
           data-testid="loader"
         />
