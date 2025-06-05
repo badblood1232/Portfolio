@@ -20,7 +20,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     CompanyGithub: "https://github.com/badblood1232/Companyprototype",
     
    NarraLinkDesc: "A comprehensive platform integrating AI technologies into intellectual property management systems. Built to streamline IP workflows, enhance user experience, and deliver powerful features for efficient management. Developed using React.js, Django, and OpenAI APIs.",
-   capsGithub: "https://github.com/EarlClaro/IPAMS_06-Main/tree/master",
+   NarraLinkGithub: "https://github.com/EarlClaro/IPAMS_06-Main/tree/master",
   }
 
   let show ='';
