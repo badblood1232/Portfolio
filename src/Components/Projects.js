@@ -5,6 +5,7 @@ import stopwatch from '../images/Stop-Watch.jpg';
 import digiclock from '../images/Digi-Clock.jpg';
 import company from '../images/company.jpg';
 import capstone from '../images/Capstone.jpg'
+import jwt from '../images/crud.jpg'
 const Projects = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={digiclock} projectName="Digital" />
         <ProjectBox projectPhoto={company} projectName="Company" />
          <ProjectBox projectPhoto={capstone} projectName="NarraLink" />
+         <ProjectBox projectPhoto={jwt} projectName="JwtAuth" />
       </div>
 
     </div>
