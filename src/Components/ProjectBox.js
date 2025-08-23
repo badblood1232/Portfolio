@@ -24,6 +24,10 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 
    JwtAuthDesc: "A a full-stack JWT-based authentication system with CRUD functionality, built using Express.js for the backend and Redux for state management. The frontend is styled with Material UI (MUI), providing a responsive and modern interface for user interaction.",
    JwtAuthGithub: "https://github.com/badblood1232/jwtauth-w-crud-redux-mui",
+
+   TripairifyDesc: "Tripairify is a micro - travel shairing/pairing site. Its main purpose is to connect users(Hosts and Joiners) who wish to share the same Trips Together. Built using React.js for the frontend and Node.js with Express for the backend, Tripairify offers a seamless and interactive experience for users to find and connect with travel companions.",
+   TripairifyGithub: "https://github.com/badblood1232/Tripairify"
+
   }
 
   let show ='';
