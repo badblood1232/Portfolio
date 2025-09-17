@@ -3,7 +3,7 @@ import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react"
 
-import profile from '../images/profile1.jpg';
+import profile from '../images/profile2.jpg';
 
 const About = () => {
   return (
