@@ -5,19 +5,10 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    "To-Do-ListDesc" : "A Todo List app made using React.js",
-    "To-Do-ListGithub" : "https://github.com/badblood1232/To-Do-List",
-   
+    
 
-    StopwatchDesc : "A Stopwatch app made using React.js",
-    StopwatchGithub : "https://github.com/badblood1232/Stopwatch",
-
-
-    DigitalDesc:"A Digital Clock app made using React.js",
-    DigitalGithub: "https://github.com/badblood1232/Digital-Clock",
-
-    CompanyDesc:"Full stack company website made using html, css and Django",
-    CompanyGithub: "https://github.com/badblood1232/Companyprototype",
+  CompanyDesc:"Full stack company website made using html, css and Django",
+  CompanyGithub: "https://github.com/badblood1232/Companyprototype",
     
    NarraLinkDesc: "A comprehensive platform integrating AI technologies into intellectual property management systems. Built to streamline IP workflows, enhance user experience, and deliver powerful features for efficient management. Developed using React.js, Django, and OpenAI APIs.",
    NarraLinkGithub: "https://github.com/EarlClaro/IPAMS_06-Main/tree/master",
