@@ -1,8 +1,7 @@
-import React from 'react';
-import Lottie from  "lottie-react";
+
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
-import Avatar from '../images/Avatar.png';
+
 import Star from '../images/stars.jpg';
 
 

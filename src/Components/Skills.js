@@ -2,7 +2,7 @@
 import { CgCPlusPlus } from "react-icons/cg";
 import {FaReact, FaPython, FaGitAlt} from "react-icons/fa";
 import {DiNodejs, DiJavascript1,DiDjango} from "react-icons/di";
-import {SiExpress, SiMongodb, SiPostman, SiVercel} from "react-icons/si";
+import {SiExpress, SiPostman} from "react-icons/si";
 
 const Skills = ({skill}) => {
     const icon = {
