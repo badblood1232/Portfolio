@@ -11,7 +11,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
   CompanyGithub: "https://github.com/badblood1232/Companyprototype",
     
    NarraLinkDesc: "A comprehensive platform integrating AI technologies into intellectual property management systems. Built to streamline IP workflows, enhance user experience, and deliver powerful features for efficient management. Developed using React.js, Django, and OpenAI APIs.",
-   NarraLinkGithub: "https://github.com/EarlClaro/IPAMS_06-Main/tree/master",
+   NarraLinkGithub: "https://github.com/EarlClaro/IPAMS-Deploy.git",
 
    JwtAuthDesc: "A a full-stack JWT-based authentication system with CRUD functionality, built using Express.js for the backend and Redux for state management. The frontend is styled with Material UI (MUI), providing a responsive and modern interface for user interaction.",
    JwtAuthGithub: "https://github.com/badblood1232/jwtauth-w-crud-redux-mui",
