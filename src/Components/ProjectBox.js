@@ -37,7 +37,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             {desc[projectName + 'Desc']}
             <br />
 
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
+            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank' rel="noreferrer">
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
         </div>
